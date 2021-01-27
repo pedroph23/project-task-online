@@ -1,0 +1,46 @@
+{
+  "name": "task",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "devtools": "react-devtools"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@react-native-async-storage/async-storage": "^1.13.3",
+    "@react-native-community/datetimepicker": "^3.0.9",
+    "jetifier": "^1.6.6",
+    "moment": "^2.24.0",
+    "react": "^16.13.1",
+    "react-devtools": "^3.6.3",
+    "react-dom": "^17.0.1",
+    "react-native": "0.63.4",
+    "react-native-action-button": "^2.8.5",
+    "react-native-swipe-action-list": "0.0.3",
+    "react-native-swipeable": "^0.6.0",
+    "react-native-vector-icons": "^7.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/runtime": "^7.8.3",
+    "@react-native-community/eslint-config": "^0.0.6",
+    "babel-jest": "^25.1.0",
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0",
+    "metro-react-native-babel-preset": "^0.58.0",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assert": [
+      "./asserts/fonts/"
+    ]
+  }
+}
